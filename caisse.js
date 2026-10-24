@@ -1,9 +1,9 @@
 //Declaration des variables
 const budget =20000
 const cahier =1500;
-let n_cah =4;
+let n_cah =12;
 const stylo =500;
-let n_stylo =3;
+let n_stylo =6;
 //calcul des montants
 const mont_c = cahier*n_cah;
 const mont_tot = mont_c+ stylo*n_stylo;
@@ -23,5 +23,5 @@ console.log("")
 //utilisation de la boucle for
 let a =1;
 for(let a = 1; a<=5; a++ ) {
-    console.log("Achat numéro" + a)
+    console.log("Achat numéro" + a);
 }

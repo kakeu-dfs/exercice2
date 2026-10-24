@@ -8,6 +8,7 @@ const n_stylo =3;
 const mont_c = cahier*n_cah;
 const mont_tot = mont_c+ stylo*n_stylo;
 // les conditions et affichages
+console.log(" ")
 console.log("===== CAISSE =====");
 console.log(" ");
 console.log("Cahiers:",cahier, "FCFA")
@@ -19,3 +20,4 @@ if (budget>=mont_tot) {
 } else {
     console.log("Bugdet insuffisant")
 }
+console.log("")
